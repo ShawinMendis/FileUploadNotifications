@@ -9,7 +9,7 @@ def lambda_handler(event, context):
 
     sns = boto3.client('sns')
     sns.publish(
-        TopicArn = 'arn:aws:sns:us-east-1:340297255339:File-Upload-Notification',
+        TopicArn = '<topic arn here>',
         Subject = 'File uploaded: ' + key,
         Message = 'File was uploaded to bucket: ' + bucket
     )
