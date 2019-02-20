@@ -1,4 +1,4 @@
-# FileUploadNotifications
+# S3 FileUpload Notifications
 Sending SNS notifications on file upload to specific S3 bucket using python and AWS Lambda
 
 #Step 01
